@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=cyrillic');
 
 header{
-  background-image: url("/img/header.png");
+  background-image: url("../img/header.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 845px;
@@ -171,7 +171,7 @@ header{
       display: flex;
       height: 100px;
       h4{
-        background-image: url("/img/bgmenu.png");
+        background-image: url("../img/bgmenu.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 660px;
@@ -404,12 +404,12 @@ header{
 #call{
   overflow: hidden;
   margin-top: 75px;
-  background-image: url("/img/callbg.png");
+  background-image: url("../img/callbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 836px;
   .bubbles{
-    background-image: url("/img/bgbubbles.png");
+    background-image: url("../img/bgbubbles.png");
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;

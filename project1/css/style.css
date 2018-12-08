@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=cyrillic");
 header {
-  background-image: url("/img/header.png");
+  background-image: url("../img/header.png");
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ header {
       display: flex;
       height: 100px; }
       header .menu .wrapper h4 {
-        background-image: url("/img/bgmenu.png");
+        background-image: url("../img/bgmenu.png");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
                 background-size: cover;
@@ -704,13 +704,13 @@ header {
 #call {
   overflow: hidden;
   margin-top: 75px;
-  background-image: url("/img/callbg.png");
+  background-image: url("../img/callbg.png");
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   height: 836px; }
   #call .bubbles {
-    background-image: url("/img/bgbubbles.png");
+    background-image: url("../img/bgbubbles.png");
     -webkit-background-size: 100% 100%;
             background-size: 100%;
     background-repeat: no-repeat;
