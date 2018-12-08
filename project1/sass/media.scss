@@ -1,0 +1,299 @@
+@media only screen and (max-width: 1400px){
+  body{
+    header{
+      .menu{
+        .wrapper{
+          ul{
+            li{
+              a{
+                font-size: 20px;
+                margin: 0px 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px){
+  body{
+    header{
+      .menu{
+        top: 230px;
+        .wrapper{
+          height: 75px;
+          h4{
+            width: 450px;
+            padding-right: 50px;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    main{
+      #work{
+        .shadow{
+          height: 350px;
+          p{
+            margin: 10px 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  body{
+    header{
+      .menu{
+        .wrapper{
+          ul{
+            li{
+              a{
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+    main{
+      #call{
+        .bubbles{
+          background-size: 100%;
+          right: 0px;
+          .circle{
+            margin-top: 10px;
+            top: 0px;
+            right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  body{
+    header{
+      #soc{
+        padding-top: 75px;
+      }
+    }
+    main{
+      #about-us{
+        margin-top: 75px;
+        .about-img{
+          padding: 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      #work{
+        overflow: hidden;
+        .shadow{
+          height: 325px;
+        }
+      }
+      #call{
+        margin-top: 50px;
+        height: 700px;
+        .bubbles{
+          background-image: none;
+          .circle{
+            height: 650px;
+            border-radius: 75px;
+            margin-top: 25px;
+          }
+          .call-header{
+            margin-top: 100px;
+          }
+        }
+      }
+    }
+    footer{
+      .contacts{
+        .contact{
+          h3{
+            margin-bottom: 5px;
+          }
+          .email{
+            margin-bottom: 3px;
+            margin-top: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px){
+  body{
+    header{
+      height: 600px;
+      #soc{
+        ul{
+          li{
+            margin: 0px auto;
+          }
+        }
+      }
+      .title{
+        padding-top: 100px;
+        h1{
+          margin: 0px auto;
+          font-size: 36px;
+        }
+        h4{
+          margin: 25px auto 25px auto;
+          font-size: 22px;
+        }
+        .wrapa{
+          margin: 0px auto;
+        }
+      }
+    }
+    main{
+      #about-us{
+        .about-text{
+          h3{
+            font-size: 22px;
+            margin-top: 10px
+          }
+          .text{
+            font-size: 15px;
+            margin-top: 10px;
+          }
+        }
+      }
+      #work{
+        h3{
+          font-size: 22px;
+          margin-top: 10px;
+        }
+        .wrapper{
+          margin-top: 25px;
+        }
+        .shadow{
+          height: 350px;
+          p{
+            font-size: 16px;
+          }
+        }
+      }
+      #call{
+        .bubbles{
+          .circle{
+            padding: 0px;
+            border-radius: 0px;
+          }
+          .call-header{
+            font-size: 22px;
+          }
+          .call-footer{
+            font-size: 12px;
+          }
+          .call-form{
+            margin: 70px auto 0px auto;
+            .input{
+              input{
+                width: 275px;
+              }
+            }
+            .a{
+              a{
+                padding: 9px 30px;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    footer{
+      .contacts{
+        margin: 0px auto;
+        .contact{
+          width: 100%;
+          padding: 0px;
+          h3{
+            padding: 0px;
+            font-size: 22px;
+          }
+          .email, .mob{
+            padding: 0px;
+            div{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .copir{
+        .copir-text{
+          padding-top: 20px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 299px){
+  body{
+    header{
+      height: 500px;
+      .soc{
+        ul{
+          li{
+            a{
+              img{
+                width: 40px;
+              }
+            }
+          }
+        }
+      }
+      .title{
+        padding-top: 75px;
+        h1{
+          font-size: 28px;
+        }
+        h4{
+          font-size: 18px;
+        }
+        .wrapa{
+          a{
+            padding: 7px 45px;
+          }
+        }
+      }
+    }
+    main{
+      #work{
+        .shadow{
+          height: 300px;
+        }
+      }
+      #call{
+        .bubbles{
+          .call-form{
+            .input{
+              input{
+                width: 240px;
+              }
+            }
+            .a{
+              a{
+                padding: 7px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

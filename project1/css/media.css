@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1400px) {
+  body header .menu .wrapper ul li a {
+    font-size: 20px;
+    margin: 0px 25px; } }
+
+@media only screen and (max-width: 1199px) {
+  body header .menu {
+    top: 230px; }
+    body header .menu .wrapper {
+      height: 75px; }
+      body header .menu .wrapper h4 {
+        width: 450px;
+        padding-right: 50px;
+        font-size: 24px; }
+  body main #work .shadow {
+    height: 350px; }
+    body main #work .shadow p {
+      margin: 10px 3px; } }
+
+@media only screen and (max-width: 991px) {
+  body header .menu .wrapper ul li a {
+    font-size: 16px; }
+  body main #call .bubbles {
+    -webkit-background-size: 100% 100%;
+            background-size: 100%;
+    right: 0px; }
+    body main #call .bubbles .circle {
+      margin-top: 10px;
+      top: 0px;
+      right: 0px; } }
+
+@media only screen and (max-width: 767px) {
+  body header #soc {
+    padding-top: 75px; }
+  body main #about-us {
+    margin-top: 75px; }
+    body main #about-us .about-img {
+      padding: 0px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  body main #work {
+    overflow: hidden; }
+    body main #work .shadow {
+      height: 325px; }
+  body main #call {
+    margin-top: 50px;
+    height: 700px; }
+    body main #call .bubbles {
+      background-image: none; }
+      body main #call .bubbles .circle {
+        height: 650px;
+        -webkit-border-radius: 75px;
+                border-radius: 75px;
+        margin-top: 25px; }
+      body main #call .bubbles .call-header {
+        margin-top: 100px; }
+  body footer .contacts .contact h3 {
+    margin-bottom: 5px; }
+  body footer .contacts .contact .email {
+    margin-bottom: 3px;
+    margin-top: 3px; } }
+
+@media only screen and (max-width: 575px) {
+  body header {
+    height: 600px; }
+    body header #soc ul li {
+      margin: 0px auto; }
+    body header .title {
+      padding-top: 100px; }
+      body header .title h1 {
+        margin: 0px auto;
+        font-size: 36px; }
+      body header .title h4 {
+        margin: 25px auto 25px auto;
+        font-size: 22px; }
+      body header .title .wrapa {
+        margin: 0px auto; }
+  body main #about-us .about-text h3 {
+    font-size: 22px;
+    margin-top: 10px; }
+  body main #about-us .about-text .text {
+    font-size: 15px;
+    margin-top: 10px; }
+  body main #work h3 {
+    font-size: 22px;
+    margin-top: 10px; }
+  body main #work .wrapper {
+    margin-top: 25px; }
+  body main #work .shadow {
+    height: 350px; }
+    body main #work .shadow p {
+      font-size: 16px; }
+  body main #call .bubbles .circle {
+    padding: 0px;
+    -webkit-border-radius: 0px;
+            border-radius: 0px; }
+  body main #call .bubbles .call-header {
+    font-size: 22px; }
+  body main #call .bubbles .call-footer {
+    font-size: 12px; }
+  body main #call .bubbles .call-form {
+    margin: 70px auto 0px auto; }
+    body main #call .bubbles .call-form .input input {
+      width: 275px; }
+    body main #call .bubbles .call-form .a a {
+      padding: 9px 30px;
+      font-size: 18px; }
+  body footer .contacts {
+    margin: 0px auto; }
+    body footer .contacts .contact {
+      width: 100%;
+      padding: 0px; }
+      body footer .contacts .contact h3 {
+        padding: 0px;
+        font-size: 22px; }
+      body footer .contacts .contact .email, body footer .contacts .contact .mob {
+        padding: 0px; }
+        body footer .contacts .contact .email div, body footer .contacts .contact .mob div {
+          font-size: 16px; }
+  body footer .copir .copir-text {
+    padding-top: 20px;
+    font-size: 12px; } }
+
+@media only screen and (max-width: 299px) {
+  body header {
+    height: 500px; }
+    body header .soc ul li a img {
+      width: 40px; }
+    body header .title {
+      padding-top: 75px; }
+      body header .title h1 {
+        font-size: 28px; }
+      body header .title h4 {
+        font-size: 18px; }
+      body header .title .wrapa a {
+        padding: 7px 45px; }
+  body main #work .shadow {
+    height: 300px; }
+  body main #call .bubbles .call-form .input input {
+    width: 240px; }
+  body main #call .bubbles .call-form .a a {
+    padding: 7px 20px; } }
