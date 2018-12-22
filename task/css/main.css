@@ -737,12 +737,13 @@ footer #contact {
             height: 50px;
             line-height: 24px; }
 
-@-webkit-keyframes color {
+@-webkit-keyframes my-anim {
   to {
-    color: #666;
+    color: rgba(183, 183, 183, 0.7);
     background: transparent; } }
           footer #contact .wrapper-mask .wrapper-second-mask .left-section .contact-info .email:-webkit-autofill {
-            -webkit-animation-name: color; }
+            -webkit-animation-name: my-anim;
+            -webkit-animation-fill-mode: both; }
           footer #contact .wrapper-mask .wrapper-second-mask .left-section .contact-info label {
             position: absolute;
             top: 50%;

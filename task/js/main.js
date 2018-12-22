@@ -312,7 +312,7 @@ $(document).ready(function(){
     // Function validate form
     function validateForm(){
         var inputText = /[^(A-Z)(a-z)(А-Я)(а-я)\і\s\'\ё]/,
-            inputEmail = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/,
+            inputEmail = /^([a-zA-Z0-9_-]+\.)*[a-zA-Z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/,
             valName = false,
             valEmail = false;
 

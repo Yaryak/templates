@@ -681,14 +681,15 @@ footer{
                             height: 50px;
                             line-height: 24px;
                         }
-                        @-webkit-keyframes color {
-                            to {
-                                color: #666;
+                        @-webkit-keyframes my-anim {
+                             to {
+                                color: rgba(183, 183, 183, 0.7);
                                 background: transparent;
                             }
                         }
                         .email:-webkit-autofill{
-                            -webkit-animation-name: color;
+                            -webkit-animation-name: my-anim;
+                            -webkit-animation-fill-mode: both; 
                         }
                         label{
                             position: absolute;
