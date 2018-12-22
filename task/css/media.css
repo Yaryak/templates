@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1199px) {
+  body footer #contact .wrapper-mask .wrapper-second-mask .right-section {
+    margin-left: 35px; } }
+
+@media only screen and (max-width: 1024px) {
+  body header .top-line .menu {
+    display: none; }
+  body header .top-line .burger-menu {
+    display: block; }
+  body #banners .banner-1 .title, body #banners .banner-2 .title, body #banners .banner-3 .title {
+    font-size: 48px; }
+  body #banners .banner-1 .over, body #banners .banner-2 .over, body #banners .banner-3 .over {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 991px) {
+  body #products {
+    background-image: none;
+    background-color: #F5F5F5;
+    height: 1075px; }
+  body #about-us .right-section {
+    display: none; }
+  body #contact .wrapper-mask .wrapper-second-mask .left-section .contact-info input {
+    width: 175px; }
+  body #contact .wrapper-mask .wrapper-second-mask .left-section .message textarea {
+    width: 368px; } }
+
+@media only screen and (max-width: 767px) {
+  body #banners {
+    height: 600px; }
+    body #banners .prew, body #banners .next {
+      width: 50px;
+      height: 50px; }
+    body #banners .next {
+      right: 10px; }
+    body #banners .prew {
+      left: 10px; }
+    body #banners .banner-1 .title, body #banners .banner-2 .title, body #banners .banner-3 .title {
+      font-size: 36px; }
+    body #banners .banner-1 .over, body #banners .banner-2 .over, body #banners .banner-3 .over {
+      font-size: 14px; }
+  body #contact .wrapper-mask .wrapper-second-mask {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    body #contact .wrapper-mask .wrapper-second-mask .left-section {
+      margin: 20px 10px 10px 10px; }
+      body #contact .wrapper-mask .wrapper-second-mask .left-section .contact-info input {
+        width: 235px; }
+      body #contact .wrapper-mask .wrapper-second-mask .left-section .message textarea {
+        width: 488px; }
+      body #contact .wrapper-mask .wrapper-second-mask .left-section .send {
+        margin-bottom: 10px; }
+    body #contact .wrapper-mask .wrapper-second-mask .right-section {
+      margin: 5px; }
+      body #contact .wrapper-mask .wrapper-second-mask .right-section .addres, body #contact .wrapper-mask .wrapper-second-mask .right-section .number, body #contact .wrapper-mask .wrapper-second-mask .right-section .email {
+        margin: 15px; }
+  body #copir {
+    padding: 0px 15px;
+    top: 281px; }
+    body #copir .copir-text {
+      font-size: 14px; }
+    body #copir .social img {
+      margin-left: 15px; } }
+
+@media only screen and (max-width: 601px) {
+  body #products {
+    height: 1000px; }
+    body #products .product-section-1 .element, body #products .product-section-2 .element, body #products .product-section-3 .element {
+      padding: 10px; } }
+
+@media only screen and (max-width: 575px) {
+  body #products {
+    height: 1820px; }
+    body #products .product-section-1 .element, body #products .product-section-2 .element, body #products .product-section-3 .element {
+      padding: 25px; }
+  body #contact .wrapper-mask .wrapper-second-mask .left-section .contact-info input {
+    width: 200px; }
+  body #contact .wrapper-mask .wrapper-second-mask .left-section .message textarea {
+    width: 100%; } }
+
+@media only screen and (max-width: 499px) {
+  body header .top-line .search {
+    display: none; }
+  body #contact .wrapper-mask .wrapper-second-mask {
+    padding: 0px; }
+    body #contact .wrapper-mask .wrapper-second-mask .left-section .contact-info input {
+      width: 140px; }
+  body #copir {
+    height: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 10px; }
+    body #copir .copir-text {
+      line-height: 20px;
+      letter-spacing: 0px; } }
+
+@media only screen and (max-width: 392px) {
+  body #copir {
+    top: 305px; } }

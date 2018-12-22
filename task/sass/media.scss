@@ -1,0 +1,232 @@
+@media only screen and (max-width: 1199px){
+    body{
+        footer{
+            #contact{
+                .wrapper-mask{
+                    .wrapper-second-mask{
+                        .right-section{
+                            margin-left: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    body{
+        header{
+            .top-line{
+                .menu{
+                    display: none;
+                }
+                .burger-menu{
+                    display: block;
+                }
+            }
+        }
+        #banners{
+            .banner-1, .banner-2, .banner-3{
+                .title{
+                    font-size: 48px;
+                }
+                .over{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px){
+    body{
+        #products{
+            background-image: none;
+            background-color: #F5F5F5;
+            height: 1075px;
+        }
+        #about-us{
+            .right-section{
+                display: none;
+            }
+        }
+        #contact{
+            .wrapper-mask{
+                 .wrapper-second-mask{
+                    .left-section{
+                        .contact-info{
+                            input{
+                                width: 175px;
+                            }
+                        }
+                        .message{
+                            textarea{
+                                width: 368px;
+                            }
+
+                        }
+                    }
+                }
+            }
+         }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        #banners{
+            height: 600px;
+            .prew, .next{
+                width: 50px;
+                height: 50px;
+            }
+            .next{
+                right: 10px;
+            }
+            .prew{
+                left: 10px;
+            }
+            .banner-1, .banner-2, .banner-3{
+                .title{
+                    font-size: 36px;
+                }
+                .over{
+                    font-size: 14px;
+                }
+            }
+        }
+        #contact{
+            .wrapper-mask{
+                 .wrapper-second-mask{
+                    margin-top: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    .left-section{
+                        margin: 20px 10px 10px 10px;
+                        .contact-info{
+                            input{
+                                width: 235px;
+                            }
+                        }
+                        .message{
+                            textarea{
+                                width: 488px;
+                            }
+                        }
+                        .send{
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .right-section{
+                        margin: 5px;
+                        .addres, .number, .email{
+                            margin: 15px;
+                        }
+                    }
+                }
+            }
+         }
+         #copir{
+            padding: 0px 15px;
+            top: 281px;
+            .copir-text{
+                font-size: 14px;
+            }
+            .social{
+                img{
+                    margin-left: 15px; 
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 601px){
+    body{
+        #products{
+            height: 1000px;
+            .product-section-1, .product-section-2, .product-section-3{
+                .element{
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px){
+    body{
+        #products{
+            height: 1820px;
+            .product-section-1, .product-section-2, .product-section-3{
+                .element{
+                    padding: 25px;
+                }
+            }
+        }
+        #contact{
+            .wrapper-mask{
+                 .wrapper-second-mask{
+                    .left-section{
+                        .contact-info{
+                            input{
+                                width: 200px;
+                            }
+                        }
+                        .message{
+                            textarea{
+                                width: 100%;
+                            }
+
+                        }
+                    }
+                }
+            }
+         }
+    }
+}
+
+@media only screen and (max-width: 499px){
+    body{
+        header{
+            .top-line{
+                .search{
+                    display: none;
+                }
+            }
+        }
+        #contact{
+            .wrapper-mask{
+                 .wrapper-second-mask{
+                     padding: 0px;
+                    .left-section{
+                        .contact-info{
+                            input{
+                                width: 140px;
+                            }
+                        }
+                    }
+                }
+            }
+         }
+         #copir{
+            height: 80px;
+            flex-direction: column;
+            padding-bottom: 10px;
+            .copir-text{
+                line-height: 20px;
+                letter-spacing: 0px;
+            }
+         }
+    }
+}
+
+@media only screen and (max-width: 392px){
+    body{
+         #copir{
+            top: 305px;
+         }
+    }
+}
